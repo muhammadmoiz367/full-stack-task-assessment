@@ -1,1 +1,29 @@
-node_modules
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore the .env file inside backend folder
+.env
+
+# OS-specific files
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build directories
+frontend/build/
+backend/build/
+
+# Frontend specific
+frontend/node_modules/
+
+# Backend specific
+backend/node_modules/
